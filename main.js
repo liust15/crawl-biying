@@ -4,7 +4,7 @@ var fs = require('fs')
 //get 请求外网  
 var cheerio = require('cheerio');
 function main() {
-    for (var i = 1; i <= 1; i++) {
+    for (var i = 1; i <= 72; i++) {
         var url = "https://bing.ioliu.cn/?p=" + i;
         getUrl(url);
     }
